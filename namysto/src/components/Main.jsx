@@ -35,12 +35,12 @@ const Main = ({ menuRequest }) => {
             <h2>{articleMain.name}</h2>
             <div
               className="pic-container"
-              // style={{
-              //   backgroundImage: `url(${[articleMain.photo]})`,
-              // }}
+              style={{
+                backgroundImage: `url(${articleMain.photo})`,
+              }}
             >
-              {console.log(articleMain, "ARTICLE MAIN")}
-              <img src="./namystoTeam.jpg" alt={articleMain.name} />
+              {/* {console.log(articleMain, "ARTICLE MAIN")} */}
+              <img src={articleMain.photo} alt={articleMain.name} />
             </div>
             <ul className="about">
               <Article key={i} article={articleMain.article} />
