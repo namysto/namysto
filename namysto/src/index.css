@@ -1,0 +1,13 @@
+:root {
+  --main-sections-color: #1521dc;
+  --main-background-color: #f8e614;
+  --main-font-color: #161822;
+  --secondary-font-color: #ece4e2;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: var(--main-background-color);
+  padding: 0 10px;
+  font-size: 2em;
+}

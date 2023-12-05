@@ -1,0 +1,36 @@
+.header-section {
+  background-color: var(--main-sections-color);
+  padding: 10px;
+  border-radius: 10px;
+}
+.header-section-row {
+  justify-content: space-between;
+}
+
+.header-section a {
+  color: var(--secondary-cont-color);
+  text-decoration: none;
+  display: block;
+  /* width: 100%; */
+}
+
+.header-section div.button-container {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100%;
+  transition: all 500ms;
+}
+
+/*mob*/
+.header-section div.button-container:active,
+.header-section div.button-container:hover {
+  /* transform: scale(1.1); */
+  background-color: var(--main-background-color);
+}
+
+/*monitor*/
+.header-section div.button-container:active a,
+.header-section div.button-container:hover a {
+  color: var(--main-sections-color);
+}
