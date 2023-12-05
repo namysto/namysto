@@ -5,6 +5,7 @@ import {
   aboutUs,
   projects,
   pastProjects,
+  media,
 } from "./infoForComponents./generalInfo";
 import { useState, useEffect } from "react";
 import Article from "./Article";
@@ -16,7 +17,7 @@ const Main = ({ menuRequest }) => {
     const menuNameAndArticles = {
       NAMYSTO: aboutUs,
       ["Support Us"]: undefined,
-      ["Media"]: undefined,
+      ["Media"]: media,
       Contacts: undefined,
       ["Present Projects"]: projects,
       ["Past Projects"]: pastProjects,
@@ -33,15 +34,19 @@ const Main = ({ menuRequest }) => {
         return (
           <section className="main-article-section" key={i}>
             <h2>{articleMain.name}</h2>
-            <div
-              className="pic-container"
-              style={{
-                backgroundImage: `url(${articleMain.photo})`,
-              }}
-            >
-              {/* {console.log(articleMain, "ARTICLE MAIN")} */}
-              <img src={articleMain.photo} alt={articleMain.name} />
-            </div>
+            {articleMain.photo !== "" ? (
+              <div
+                className="pic-container"
+                style={{
+                  backgroundImage: `url(${articleMain.photo})`,
+                }}
+              >
+                {/* {console.log(articleMain, "ARTICLE MAIN")} */}
+                <img src={articleMain.photo} alt={articleMain.name} />
+              </div>
+            ) : (
+              ""
+            )}
             <ul className="about">
               <Article key={i} article={articleMain.article} />
             </ul>

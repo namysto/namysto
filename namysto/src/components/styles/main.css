@@ -5,6 +5,9 @@
   align-items: center;
   margin: 30px 0;
 }
+.main-article-section a {
+  line-height: 2.5em;
+}
 .main-container div img {
   max-width: 500px;
   background-color: aqua;

@@ -93,6 +93,24 @@ export const pastProjects = [
 
 export const media = [
   {
+    id: 31,
+    photo: "",
+    name: "Cambridge Independent",
+    article: [""],
+    link: "https://www.cambridgeindependent.co.uk/news/amp/ukraine-school-in-cambridge-gets-a-first-at-the-university-o-9319295/?fbclid=IwAR0umiRGGXoYXKpL8OJ83QdGdwUiyXN88uGu9y4tW-QOvp94yln4DcgZ78I",
+    linkDescr:
+      "Emmanuel College opens its doors for Ukraine School in Cambridge teaching day",
+  },
+  {
+    id: 30,
+    photo: "",
+    name: "Cambridge Independent",
+    article: [""],
+    link: "https://www.cambridgeindependent.co.uk/news/successful-opening-as-ukraine-school-in-cambridge-delights-p-9315478/",
+    linkDescr:
+      "Ukraine School in Cambridge opens its doors with demand four times expectations",
+  },
+  {
     id: 1,
     photo: "",
     name: "Cambridge Breakfast",
@@ -107,17 +125,267 @@ export const media = [
     article: [""],
     link: "https://www.csmonitor.com/World/Europe/2022/0328/British-government-lags-public-on-desire-to-help-Ukrainians.-Why",
     linkDescr:
-      " British government lags public on desire to help Ukrainians. Why? ",
+      "British government lags public on desire to help Ukrainians. Why? ",
   },
   {
     id: 3,
     photo: "",
-    name: "The Christian Monitor.",
+    name: "Rhyl, Prestatyn & Abergele. Journal",
     article: [""],
-    link: "https://www.csmonitor.com/World/Europe/2022/0328/British-government-lags-public-on-desire-to-help-Ukrainians.-Why",
+    link: "https://www.rhyljournal.co.uk/news/national/20013360.ukrainian-family-10-move-home-provided-cambridgeshire-businessman/",
     linkDescr:
-      " British government lags public on desire to help Ukrainians. Why? ",
+      "Ukrainian family of 10 move into home provided by Cambridgeshire businessman",
+  },
+  {
+    id: 4,
+    photo: "",
+    name: "The Northern Echo",
+    article: [""],
+    link: "https://www.thenorthernecho.co.uk/news/national/20013360.ukrainian-family-10-move-home-provided-cambridgeshire-businessman/",
+    linkDescr:
+      "Ukrainian family of 10 move into home provided by Cambridgeshire businessman",
+  },
+  {
+    id: 5,
+    photo: "",
+    name: "Sky News",
+    article: [""],
+    link: "https://news.sky.com/iframe/widget/video/5711144",
+    linkDescr: "Sky News Video",
+  },
+  {
+    id: 6,
+    photo: "",
+    name: "Independent",
+    article: [""],
+    link: "https://www.independent.co.uk/news/uk/home-news/ukraine-cambridge-refugees-russia-invasion-kharkiv-home-b2041932.html",
+    linkDescr:
+      "Ukrainian family of 10 move into home provided by Cambridgeshire businessman",
+  },
+
+  {
+    id: 7,
+    photo: "",
+    name: "Daily Mail",
+    article: [""],
+    link: "https://www.dailymail.co.uk/news/article-10643071/Ukrainian-family-10-new-home-Cambridgeshire.html",
+    linkDescr:
+      "Ukrainian family of 10 move into home provided by Cambridgeshire businessman",
+  },
+  {
+    id: 8,
+    photo: "",
+    name: "Cambridge News",
+    article: [""],
+    link: "https://www.cambridge-news.co.uk/news/cambridge-news/cambridgeshire-businessman-houses-ukraine-family-23476970",
+    linkDescr:
+      "'Mixed emotions' as Ukrainian family of 10 settle in Cambs home donated by local businessman",
+  },
+  {
+    id: 9,
+    photo: "",
+    name: "Leading British Conversation",
+    article: [""],
+    link: "https://www.lbc.co.uk/news/ukrainian-family-10-cambridgeshire-house-donated/",
+    linkDescr:
+      "Ukrainian family of 10 move into house in Cambridgeshire donated by local businessman",
+  },
+  {
+    id: 10,
+    photo: "",
+    name: "Telegraph",
+    article: [""],
+    link: "https://www.telegraph.co.uk/news/2022/03/23/pictured-look-relief-ukrainian-family-10-found-safety-cambridgeshire/",
+    linkDescr:
+      "Pictured: The look of relief for Ukrainian family of 10 who found safety in Cambridgeshire ",
+  },
+  {
+    id: 11,
+    photo: "",
+    name: "NUK",
+    article: [""],
+    link: "https://www.thenationalnews.com/world/uk-news/2022/03/23/tears-of-joy-as-ukrainian-family-of-10-move-into-new-uk-home-after-fleeing-war/",
+    linkDescr:
+      "Joy as Ukrainian family of 10 who fled war move into new UK home",
+  },
+  {
+    id: 12,
+    photo: "",
+    name: "The Times",
+    article: [""],
+    link: "https://www.thetimes.co.uk/article/briton-offers-home-to-four-generations-of-ukrainian-family-6n5d8zhnd",
+    linkDescr: "Briton offers home to four generations of Ukrainian family",
+  },
+
+  {
+    id: 13,
+    photo: "",
+    name: "Telegraph",
+    article: [""],
+    link: "https://www.youtube.com/watch?v=mBaTwOcSa6c",
+    linkDescr:
+      "The look of relief for Ukrainian family of 10 who found safety in Cambridgeshire",
+  },
+  {
+    id: 14,
+    photo: "",
+    name: "Express",
+    article: [""],
+    link: "https://www.express.co.uk/news/uk/1585669/ukraine-russia-orphans-uk-refugee-family-hero",
+    linkDescr:
+      "British businessman offers his home to a Ukrainian family of 10",
+  },
+  {
+    id: 15,
+    photo: "",
+    name: "Birmingham Live",
+    article: [""],
+    link: "https://www.birminghammail.co.uk/news/uk-news/ukrainian-family-10-given-home-23510672",
+    linkDescr:
+      "Ukrainian family of 10 given home by kind businessman after fleeing war-torn Kharkiv",
+  },
+  {
+    id: 16,
+    photo: "",
+    name: "Metro",
+    article: [""],
+    link: "https://metro.co.uk/2022/03/23/uk-businessman-opens-his-home-to-shelter-family-of-10-from-ukraine-16328925/",
+    linkDescr:
+      "UK businessman opens his home to shelter family of 10 from Ukraine",
+  },
+  {
+    id: 17,
+    photo: "",
+    name: "Get ty images",
+    article: [""],
+    link: "https://www.gettyimages.co.nz/detail/news-photo/roman-starkov-is-reunited-with-his-family-who-fled-their-news-photo/1239444251",
+    linkDescr:
+      "UK businessman opens his home to shelter family of 10 from Ukraine",
+  },
+  {
+    id: 18,
+    photo: "",
+    name: "Alamy",
+    article: [""],
+    link: "https://www.alamy.de/roman-starkov-rechts-mit-seiner-familie-die-nach-der-russischen-invasion-in-ihrem-neuen-zuhause-in-caldecote-bei-cambridge-aus-ihrer-heimat-in-charkiw-in-der-ukraine-geflohen-war-wurde-mit-korrekter-schreibweise-von-platten-uberliefert-die-zehnkopfige-familie-die-im-alter-von-alikhan-10-jahre-alt-bis-zur-90-jahrigen-urgrossmutter-ludmila-begann-ihre-reisen-am-1-marz-und-wurde-von-rend-platings-dabei-unterstutzt-fur-sie-und-ihre-beiden-hunde-mikki-und-florie-ein-neues-zuhause-in-grossbritannien-zu-finden-bilddatum-dienstag-22-marz-2022-image465482501.html",
+    linkDescr:
+      "ROMAN Starkov (rechts) mit seiner Familie, die nach der russischen Invasion in ihrem neuen Zuhause in Caldecote bei Cambridge aus ihrer Heimat in Charkiw in der Ukraine geflohen war, WURDE MIT KORREKTER SCHREIBWEISE VON PLATTEN ÜBERLIEFERT",
+  },
+  {
+    id: 19,
+    photo: "",
+    name: "The Standard",
+    article: [""],
+    link: "https://www.standard.co.uk/news/uk/ukraine-refugee-cambridgeshire-mick-swinhoe-b989873.html",
+    linkDescr:
+      "Ukrainian family of 10 move into Cambridgeshire home donated by local man",
+  },
+  {
+    id: 20,
+    photo: "",
+    name: "The Scottish Sun",
+    article: [""],
+    link: "https://www.thescottishsun.co.uk/news/8611394/ukrainian-refugees-reunited-britain/",
+    linkDescr:
+      "'SAVING OUR LIVES' Family of ten Ukrainian refugees reunited after Brit businessman donates house",
+  },
+  {
+    id: 21,
+    photo: "",
+    name: "GB News",
+    article: [""],
+    link: "https://www.gbnews.com/news/ukrainian-family-of-10-move-into-home-provided-by-cambridgeshire-businessman-video/255569",
+    linkDescr:
+      "'SAVING OUR LIVES' Family of ten Ukrainian refugees reunited after Brit businessman donates house",
+  },
+  {
+    id: 22,
+    photo: "",
+    name: "Kent Online",
+    article: [""],
+    link: "https://www.kentonline.co.uk/news/national/ukrainian-family-of-10-move-into-home-provided-by-cambridgeshire-businessman-54348/",
+    linkDescr:
+      "Ukrainian family of 10 move into home provided by Cambridgeshire businessman",
+  },
+  {
+    id: 23,
+    photo: "",
+    name: "RRH Life",
+    article: [""],
+    link: "https://www.redhillandreigatelife.co.uk/news/national/20013360.ukrainian-family-10-move-home-provided-cambridgeshire-businessman/",
+    linkDescr:
+      "Ukrainian family of 10 move into home provided by Cambridgeshire businessman",
+  },
+  {
+    id: 24,
+    photo: "",
+    name: "The Sun",
+    article: [""],
+    link: "https://www.thesun.co.uk/news/18046093/ukrainian-refugees-reunited-britain/",
+    linkDescr:
+      "'SAVING OUR LIVES' Family of ten Ukrainian refugees reunited after Brit businessman donates house",
+  },
+  {
+    id: 24,
+    photo: "",
+    name: "G7",
+    article: [""],
+    link: "https://g7.news/noticias/2022/03/23/familia-ucraniana-de-10-pessoas-se-muda-para-casa-fornecida-pelo-empresario-de-cambridgeshire",
+    linkDescr: "G7",
+  },
+  {
+    id: 25,
+    photo: "",
+    name: "The JJ Report",
+    article: [""],
+    link: "https://thejjreport.com/world-news/ukrainian-family-of-10-move-into-new-home-in-cambridgeshire/",
+    linkDescr: "Ukrainian family of 10 move into new home in Cambridgeshire",
+  },
+  {
+    id: 26,
+    photo: "",
+    name: "Head Topics",
+    article: [""],
+    link: "https://headtopics.com/uk/ukrainian-family-of-10-move-into-cambridgeshire-home-donated-by-local-man-25014532",
+    linkDescr:
+      "A four-generation family of 10 who fled the war-torn Ukrainian city of Kharkiv are moving into a home in Cambridgeshire, donated by a businessman",
+  },
+  {
+    id: 27,
+    photo: "",
+    name: "Noticiasdelmundo",
+    article: [""],
+    link: "https://noticiasdelmundo.news/una-familia-ucraniana-de-10-miembros-se-muda-a-una-casa-de-cambridgeshire-donada-por-un-hombre-local/",
+    linkDescr:
+      "Una familia ucraniana de 10 miembros se muda a una casa de Cambridgeshire donada por un hombre local",
+  },
+  {
+    id: 28,
+    photo: "",
+    name: "Noticiasdelmundo",
+    article: [""],
+    link: "https://noticiasdelmundo.news/una-familia-ucraniana-de-10-miembros-se-muda-a-una-casa-de-cambridgeshire-donada-por-un-hombre-local/",
+    linkDescr:
+      "Una familia ucraniana de 10 miembros se muda a una casa de Cambridgeshire donada por un hombre local",
+  },
+  {
+    id: 29,
+    photo: "",
+    name: "Mundo",
+    article: [""],
+    link: "https://www.cmjornal.pt/mundo/detalhe/perdemos-tudo-num-so-dia-familia-de-10-ucranianos-fugiu-da-guerra-e-chegou-ao-reino-unido",
+    linkDescr:
+      "'Perdemos tudo num só dia': Família de 10 ucranianos fugiu da guerra e chegou ao Reino Unido",
+  },
+  {
+    id: 29,
+    photo: "",
+    name: "Mundo",
+    article: [""],
+    link: "https://www.cmjornal.pt/mundo/detalhe/perdemos-tudo-num-so-dia-familia-de-10-ucranianos-fugiu-da-guerra-e-chegou-ao-reino-unido",
+    linkDescr:
+      "'Perdemos tudo num só dia': Família de 10 ucranianos fugiu da guerra e chegou ao Reino Unido",
   },
 ];
 
-export default { aboutUs, projects, pastProjects };
+export default { aboutUs, projects, pastProjects, media };
