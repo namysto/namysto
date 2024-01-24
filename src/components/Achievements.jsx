@@ -9,9 +9,6 @@ const Achievements = () => {
         we have achieved a lot.
       </p>
       <p>
-        <b>Mums4Ukraine Silent Auction: Total raised: £2,451</b>
-      </p>
-      <p>
         One of our members, Agnes Toth organised an online, silent auction to
         raise funds in support of Migration Aid, a small charitable organisation
         based in Hungary. They are small, fully volunteer-run organisation that
@@ -29,7 +26,6 @@ const Achievements = () => {
         auctioned hair stylist appointments, mini breaks, coaching sessions,
         artwork and more!
       </p>
-      <p>We raised a total of £2451!!!</p>
       <p>
         All the money raised through the auction will go towards supporting
         Ukrainian refugees through Migration Aid. People and businesses in
