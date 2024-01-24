@@ -56,7 +56,7 @@ const Achievements = () => {
       </p>
       <p>
         {" "}
-        Read more on:
+        Read more in:
         <a href="https://www.express.co.uk/news/uk/1585669/ukraine-russia-orphans-uk-refugee-family-hero">
           {" "}
           Express
@@ -73,7 +73,7 @@ const Achievements = () => {
         house painted in Ukrainian flag colours
       </p>
       <p>
-        Read more on
+        Read more in
         <a href="https://www.thesun.co.uk/news/uknews/17805562/couple-paint-house-ukraine-colours-cambridge/">
           {" "}
           The Sun
