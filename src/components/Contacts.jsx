@@ -12,6 +12,12 @@ const Contacts = () => {
         engagement is vital to the success of our initiatives, and we are eager
         to connect with you.
       </p>
+      <h2>Address</h2>
+      <p>
+        You can find us in Friends meeting house. <br />
+        Jesus lane, 12 Cambridge <br />
+        CB5 8BA
+      </p>
     </section>
   );
 };

@@ -26,6 +26,15 @@ export const projects = [
   },
   {
     id: 2,
+    photo: "meetups",
+    name: "Ukrainian MeetUps",
+    article: [
+      "Every Saturday Ukrainians gather from 13:30 to 15:30 at Friends_Meeting_House in the heart of Cambridge. Join us for tea, coffee, snacks, friendly conversations, board games, and a positive thinking session! This meetup is designed for those seeking a delightful time, a chance to articulate their dreams, and enhance their happiness. The venue is Friends_Meeting_House (home of the Ukrainian school) at 12 Jesus Lane, Cambridge, CB5 8BA. Feel free to bring snacks to share during our tea time and enjoyable conversations – cookies, fruits, veggies, anything bite-sized! We look forward to seeing everyone there! ",
+    ],
+    link: "",
+  },
+  {
+    id: 3,
     photo: "aidhub",
     name: "Ukrainian Aid Hub",
     article: [
@@ -88,6 +97,12 @@ export const pastProjects = [
     photo: "fundraiser",
     name: "FundRaiser for Ukraine",
     article: [],
+  },
+  {
+    id: 8,
+    photo: "market",
+    name: "Ukrainian Christmas Market. St Nicolas day",
+    article: [""],
   },
 ];
 

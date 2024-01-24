@@ -1,11 +1,13 @@
 import { projects } from "./infoForComponents./generalInfo";
 import school from "./pics/school.jpeg";
 import aidhub from "./pics/aidhub.jpg";
+import meetups from "./pics/meetups.jpg";
 
 const CurrentProjects = () => {
   const proj_pics = {
     school: school,
     aidhub: aidhub,
+    meetups: meetups,
   };
   return (
     <section className="main-container">

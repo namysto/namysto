@@ -6,6 +6,7 @@ import EuropeDay from "./pics/EuropeDay.jpg";
 import UnbreakableWomen from "./pics/UnbreakableWomen.jpg";
 import RockForUkraine from "./pics/RockForUkraine.jpg";
 import fundraiser from "./pics/fundraiser.jpg";
+import market from "./pics/market.jpg";
 
 const PastProjects = () => {
   const proj_pics = {
@@ -16,24 +17,23 @@ const PastProjects = () => {
     UnbreakableWomen: UnbreakableWomen,
     RockForUkraine: RockForUkraine,
     fundraiser: fundraiser,
+    market: market,
   };
 
   return (
     <section className="main-container">
       <h1>Past Projects</h1>
       <p>
-        At the heart of our organization lie several impactful projects aimed at
-        enriching the lives of the Ukrainian community in Cambridge. The
-        'Cambridge Ukrainian School' stands as a beacon of educational
-        excellence, providing a nurturing space for children to learn and
-        connect with their cultural roots. Our 'AidHub' initiative extends a
-        helping hand, offering essential support to those in need within the
-        community. Engaging 'Ukrainian Meetups' foster social connections, while
-        English lessons contribute to the integration process. Additionally, our
-        events cater to both Ukrainian children and adults, creating spaces for
-        cultural celebration, learning, and community building. These projects
-        collectively reflect our commitment to holistic support and empowerment
-        within the Ukrainian community in Cambridge.
+        Namysto, a committed charity organization in Cambridge, has successfully
+        organized a series of impactful events and projects. These initiatives,
+        ranging from cultural events like Vyshyvanka Day to community-focused
+        activities like the Easter Egg Hunt at Romsey Recreational Ground, have
+        fostered a sense of unity and support within the Ukrainian community.
+        Fundraisers, such as the Unbreakable Women event, demonstrate a
+        dedication to addressing critical issues. With each project, Namysto
+        continues to create a vibrant and supportive environment for Ukrainians
+        in Cambridge. Stay tuned for upcoming projects that aim to strengthen
+        community bonds and make a positive impact.
       </p>
       <ul>
         {pastProjects.map((project, i) => {
