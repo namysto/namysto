@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 
 const Article = ({ article }) => {
   const [paragraphs, setPargraphs] = useState(article);
-
   useEffect(() => {
     setPargraphs(article);
   }, [article]);

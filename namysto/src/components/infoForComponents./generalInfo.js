@@ -1,7 +1,7 @@
 export const aboutUs = [
   {
     id: 1,
-    name: "Who We Are",
+    name: "Who We Are!!",
     photo: "./namystoTeam.jpg",
     article: [
       "Namysto is a grassroots volunteer run charity supporting Ukraine. Our mission is to use our connections and our own hard work to create better outcomes for Ukrainian families and to help all people that, directly or indirectly, have been affected by the Russian invasion in Ukraine.",
@@ -17,7 +17,7 @@ export const projects = [
     photo: "school",
     name: "Cambridge Ukrainian School",
     article: [
-      "The Ukrainian School in Cambridge embarked on its journey in Spring 2023, with the invaluable support of the Cambridge City Council and the wonderful people of the UK!",
+      "The Ukrainian School in Cambridge embarked on its journey in Spring 2023, with the invaluable support of the Cambridge City Council and the wonderful people of the UK! ",
       "Our school warmly welcomes Ukrainian children from the age of 3 (accompanied by one parent) up to 16 years old. Classes take place every Saturday. ",
       "Here at our school, we provide the perfect environment for a deep dive into the Ukrainian language and traditions. It's a place where children can make new friends and embark on a cultural journey that`s both enriching and exciting. Join us in building a brighter future for our Ukrainian community!",
     ],
@@ -26,7 +26,7 @@ export const projects = [
   },
   {
     id: 2,
-    photo: "",
+    photo: "aidhub",
     name: "Ukrainian Aid Hub",
     article: [
       "We are planning to hold several Aid Hub sessions at Cherry Hinton Baptist Church. Each session will last for about 2 hours.",
@@ -45,7 +45,7 @@ export const pastProjects = [
   },
   {
     id: 2,
-    photo: "OpenGarden",
+    photo: "openGarden",
     name: "Open Garden in Willingham Sunday 22nd May",
     article: [
       "Come along to enjoy time with family and friends in this beautiful garden! £1 Entry – All Proceed will go to Mums4Ukraine & St Ives Flower Club.",
@@ -85,8 +85,8 @@ export const pastProjects = [
   },
   {
     id: 7,
-    photo: "foundraiser",
-    name: "FoundRaiser for Ukraine",
+    photo: "fundraiser",
+    name: "FundRaiser for Ukraine",
     article: [],
   },
 ];
@@ -116,7 +116,7 @@ export const media = [
     name: "Cambridge Breakfast",
     article: [""],
     link: "https://podcasts.apple.com/ee/podcast/cambridge-breakfast/id1459809105",
-    linkDescr: "podcast",
+    linkDescr: "Podcast",
   },
   {
     id: 2,
@@ -256,7 +256,7 @@ export const media = [
   {
     id: 17,
     photo: "",
-    name: "Get ty images",
+    name: "Getty images",
     article: [""],
     link: "https://www.gettyimages.co.nz/detail/news-photo/roman-starkov-is-reunited-with-his-family-who-fled-their-news-photo/1239444251",
     linkDescr:
@@ -367,15 +367,6 @@ export const media = [
     link: "https://noticiasdelmundo.news/una-familia-ucraniana-de-10-miembros-se-muda-a-una-casa-de-cambridgeshire-donada-por-un-hombre-local/",
     linkDescr:
       "Una familia ucraniana de 10 miembros se muda a una casa de Cambridgeshire donada por un hombre local",
-  },
-  {
-    id: 29,
-    photo: "",
-    name: "Mundo",
-    article: [""],
-    link: "https://www.cmjornal.pt/mundo/detalhe/perdemos-tudo-num-so-dia-familia-de-10-ucranianos-fugiu-da-guerra-e-chegou-ao-reino-unido",
-    linkDescr:
-      "'Perdemos tudo num só dia': Família de 10 ucranianos fugiu da guerra e chegou ao Reino Unido",
   },
   {
     id: 29,

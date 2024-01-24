@@ -1,15 +1,13 @@
 .footer-section {
+  margin-top: 20px;
   padding: 10px;
-  border-radius: 10px;
-  background-color: var(--main-sections-color);
+  border-top: 2px solid var(--main-sections-color);
   display: flex;
   justify-content: center;
-  /* position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0; */
 }
 
 .footer-section a {
-  color: var(--main-background-color);
+  color: var(--main-font-color);
+  text-decoration: none;
+  margin-left: 10px;
 }

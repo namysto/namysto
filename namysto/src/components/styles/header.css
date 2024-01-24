@@ -1,7 +1,8 @@
 .header-section {
-  background-color: var(--main-sections-color);
+  margin-bottom: 10px;
   padding: 10px;
-  border-radius: 10px;
+  border-bottom: 2px solid var(--main-sections-color);
+  color: var(--secondary-font-color);
 }
 .header-section-row {
   justify-content: space-between;
@@ -20,12 +21,12 @@
   border-radius: 10px;
   height: 100%;
   transition: all 500ms;
+  /* background-color: red; */
 }
 
 /*mob*/
 .header-section div.button-container:active,
 .header-section div.button-container:hover {
-  /* transform: scale(1.1); */
   background-color: var(--main-background-color);
 }
 
@@ -33,4 +34,8 @@
 .header-section div.button-container:active a,
 .header-section div.button-container:hover a {
   color: var(--main-sections-color);
+}
+
+.dropdown-link {
+  padding: 10px;
 }

@@ -1,16 +1,25 @@
+body {
+  background-color: var(--main-background-color);
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .main-container,
 .main-article-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 30px 0;
+  justify-content: center;
+  margin: 10px auto;
+  padding: 0 10px;
 }
-.main-article-section a {
-  line-height: 2.5em;
-}
+
 .main-container div img {
   max-width: 500px;
-  background-color: aqua;
   width: 100%;
   max-height: 500px;
   height: 100%;
@@ -20,6 +29,7 @@
 }
 .main-container h1 {
   color: var(--main-sections-color);
+  font-size: 2.5rem;
 }
 .main-container div {
   margin: 10px 0;
@@ -34,5 +44,40 @@
   width: 100%;
   margin: 10px 0;
   font-weight: 300;
-  line-height: 1.5em;
+}
+
+.articles {
+  padding: 10px;
+  margin: 10px;
+}
+
+.main-container p {
+  margin-left: 30px;
+}
+.bank_details {
+  margin-top: 20px;
+}
+
+.projects_list::after,
+.articles::after {
+  content: "";
+  display: block;
+  width: 80%;
+  margin: 20px auto 30px;
+  border-bottom: 2px solid var(--main-sections-color);
+  opacity: 0.5;
+}
+.projects_list h2,
+.articles h2 {
+  margin-left: 30px;
+  color: var(--main-sections-color);
+}
+
+.projects_list a {
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.pic-container {
+  text-align: center;
 }

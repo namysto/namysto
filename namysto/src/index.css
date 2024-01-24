@@ -1,13 +1,35 @@
 :root {
-  --main-sections-color: #1521dc;
-  --main-background-color: #f8e614;
+  --main-background-color: #fbfbf7;
+  --main-sections-color: #234fd5;
+  --active--font--color: #e6de0c;
   --main-font-color: #161822;
-  --secondary-font-color: #ece4e2;
+  --links--color: #182253;
 }
 
 body {
-  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--main-background-color);
-  padding: 0 10px;
-  font-size: 2em;
+  font-size: 1.8em;
+}
+.main-container {
+  min-height: 80vh;
+}
+
+body section.main-container p,
+body section.main-container div.project_descr {
+  line-height: 1.31;
+  font-weight: 400;
+  font-size: 1.18rem;
+}
+a {
+  text-decoration: none;
+  color: var(--links--color);
+  transition: all 0.5s;
+}
+a:hover {
+  color: #e6de0c !important;
+}
+
+.logo {
+  width: 90px;
 }
