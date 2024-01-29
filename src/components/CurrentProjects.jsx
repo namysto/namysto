@@ -36,7 +36,9 @@ const CurrentProjects = () => {
                 <img src={`${proj_pics[project.photo]}`} alt={project.name} />
               </div>
               {project.link ? (
-                <a href={project.link}>{project.linkDescr}</a>
+                <a href={project.link} target="_blank">
+                  {project.linkDescr}
+                </a>
               ) : (
                 ""
               )}
