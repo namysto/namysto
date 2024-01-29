@@ -53,12 +53,18 @@ const Achievements = () => {
       <p>
         {" "}
         Read more in:
-        <a href="https://www.express.co.uk/news/uk/1585669/ukraine-russia-orphans-uk-refugee-family-hero">
+        <a
+          href="https://www.express.co.uk/news/uk/1585669/ukraine-russia-orphans-uk-refugee-family-hero"
+          target="_blank"
+        >
           {" "}
           Express
         </a>{" "}
         and{" "}
-        <a href="https://www.dailymail.co.uk/news/article-10643071/Ukrainian-family-10-new-home-Cambridgeshire.html">
+        <a
+          href="https://www.dailymail.co.uk/news/article-10643071/Ukrainian-family-10-new-home-Cambridgeshire.html"
+          target="_blank"
+        >
           {" "}
           Daily Mail
         </a>
@@ -70,7 +76,10 @@ const Achievements = () => {
       </p>
       <p>
         Read more in
-        <a href="https://www.thesun.co.uk/news/uknews/17805562/couple-paint-house-ukraine-colours-cambridge/">
+        <a
+          href="https://www.thesun.co.uk/news/uknews/17805562/couple-paint-house-ukraine-colours-cambridge/"
+          target="_blank"
+        >
           {" "}
           The Sun
         </a>
