@@ -28,7 +28,6 @@ function App() {
         <Route path="/current-projects" element={<CurrentProjects />} />
         <Route path="/achievements" element={<Achievements />} />
         <Route path="*" element={<ErrorPage />} />
-        {/* <Main menuRequest={menuRequest} /> */}
       </Routes>
       <Footer />
     </>
